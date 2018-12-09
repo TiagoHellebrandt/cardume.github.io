@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cardume</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    
+</head>
+
+<body class="keyboard-focused">
+    
+    <nav>
+        <div class="nav-wrapper white">
+            <a href="index.html" class="brand-logo"><img src="statics/cardume2.svg" width="270px"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="projects.html" class="black-text"><i class="material-icons left">format_paint</i>Projetos</a></li>
+            <li><a href="business.html" class="black-text"><i class="material-icons left">business</i>Empresas</a></li>
+            <li><a href="members.html" class="black-text"><i class="material-icons left">group</i>Membros</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+<div class="row">
+    <div class="col s6 offset-s3">
+        <div class="card">
+            <div class="card-image">
+                <img src="statics/business.jpg">
+                <span class="card-title">Registre sua empresa</span>
+            </div>
+            <div class="card-content">
+                <div class="row">
+                    <form class="col s12">
+                        <h6>Dados da empresa</h6>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">business</i>
+                                <input id="business-name" class="validate" type="text">
+                                <label for="business-name">Nome da empresa</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">verified_user</i>
+                                <input id="business-cnpj" class="validate" type="text">
+                                <label for="business-cnpj">CNPJ</label>
+                            </div>
+                        </div>
+
+                        <h6>Dados para login</h6>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">how_to_reg</i>
+                                <input id="business-user" class="validate" type="text">
+                                <label for="business-user">Nome de usuário</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">vpn_key</i>
+                                <input id="business-pass" class="validate" type="password">
+                                <label for="business-pass">Senha</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card-action">
+                <a class="waves-effect waves-light btn green" onclick="M.toast({html: 'Cadastrado com sucesso!'})"><i class="material-icons left">save</i>Cadastrar</a>
+            </div>
+        </div>
+    </div>
+</div>
+                
+
+
+
+</body></html>

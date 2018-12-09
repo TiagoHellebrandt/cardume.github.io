@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cardume</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    
+</head>
+
+<body class="keyboard-focused">
+    
+    <nav>
+        <div class="nav-wrapper white">
+            <a href="index.html" class="brand-logo"><img src="statics/cardume2.svg" width="270px"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="projects.html" class="black-text"><i class="material-icons left">format_paint</i>Projetos</a></li>
+            <li><a href="business.html" class="black-text"><i class="material-icons left">business</i>Empresas</a></li>
+            <li><a href="members.html" class="black-text"><i class="material-icons left">group</i>Membros</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+<div class="row">
+    <div class="col s6 offset-s3">
+        <div class="card">
+            <div class="card-image">
+                <img src="statics/projects.jpg">
+                <span class="card-title">Cadastre seu projeto</span>
+            </div>
+            <div class="card-content">
+                <div class="row">
+                    <form class="col s12">
+                        <h6>Dados do projeto</h6>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">format_paint</i>
+                                <input id="projects-name" class="validate" type="text">
+                                <label for="projects-name">Nome do projeto</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="projects-desc" class="materialize-textarea"></textarea>
+                                <label for="projects-desc">Descrição</label>
+                            </div>
+                        </div>                        
+
+                        <h6>Dados do autor</h6>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">person</i>
+                                <input id="projects-author" class="validate" type="text">
+                                <label for="projects-author">Idealizador do projeto</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">email</i>
+                                <input id="projects-email" class="validate" type="email">
+                                <label for="projects-email">E-mail</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card-action">
+                <a class="waves-effect waves-light btn green" onclick="M.toast({html: 'Cadastrado com sucesso!'})"><i class="material-icons left">save</i>Cadastrar</a>
+            </div>
+        </div>
+    </div>
+</div>
+                
+
+
+
+<div class="hiddendiv common" style="font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 19px; padding: 12px 0px; width: 606.5px;"><br></div></body></html>

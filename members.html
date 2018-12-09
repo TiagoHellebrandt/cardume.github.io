@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cardume</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    
+<script>
+  $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
+</script>
+
+</head>
+
+<body class="keyboard-focused">
+    
+    <nav>
+        <div class="nav-wrapper white">
+            <a href="index.html" class="brand-logo"><img src="statics/cardume2.svg" width="270px"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="projects.html" class="black-text"><i class="material-icons left">format_paint</i>Projetos</a></li>
+            <li><a href="business.html" class="black-text"><i class="material-icons left">business</i>Empresas</a></li>
+            <li><a href="members.html" class="black-text"><i class="material-icons left">group</i>Membros</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+<div class="row">
+    <div class="col s6 offset-s3">
+        <div class="card">
+            <div class="card-image">
+                <img src="statics/members.jpg">
+                <span class="card-title block-text">Seja membro</span>
+            </div>
+            <div class="card-content">
+                <div class="row">
+                    <form class="col s12">
+                        <h6>Dados pessoais</h6>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">account_box</i>
+                                <input id="members-name" class="validate" type="text">
+                                <label for="members-name">Nome</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">email</i>
+                                <input id="members-email" class="validate" type="email">
+                                <label for="members-email">E-mail</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">place</i>
+                                <input id="members-local" class="validate" type="text">
+                                <label for="members-local">Localização</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">calendar_today</i>
+                                <div class="modal datepicker-modal" id="modal-19334fb0-0dce-11d2-c735-0561f7ece8ee" tabindex="0"><div class="modal-content datepicker-container"><div class="datepicker-date-display"><span class="year-text"></span><span class="date-text"></span></div><div class="datepicker-calendar-container"><div class="datepicker-calendar"></div><div class="datepicker-footer"><button class="btn-flat datepicker-clear waves-effect" style="visibility: hidden;" type="button"></button><div class="confirmation-btns"><button class="btn-flat datepicker-cancel waves-effect" type="button">Cancel</button><button class="btn-flat datepicker-done waves-effect" type="button">Ok</button></div></div></div></div></div><input id="members-nasc" class="datepicker" type="text">
+                                <label for="members-nasc">Data de nascimento</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col s6 offset-s2">
+                                <label>
+                                    <input name="sexo" checked="checked" type="radio">
+                                    <span>Masculino</span>
+                                </label>
+                            </div>
+                            <div class="col s2">
+                                <label>
+                                    <input name="sexo" type="radio">
+                                    <span>Feminino</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <h6>Dados para login</h6>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">how_to_reg</i>
+                                <input id="members-user" class="validate" type="text">
+                                <label for="members-user">Nome de usuário</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">vpn_key</i>
+                                <input id="members-pass" class="validate" type="password">
+                                <label for="members-pass">Senha</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card-action">
+                <a class="waves-effect waves-light btn green" onclick="M.toast({html: 'Cadastrado com sucesso!'})"><i class="material-icons left">save</i>Cadastrar</a>
+            </div>
+        </div>
+    </div>
+</div>
+                
+
+
+
+</body></html>
